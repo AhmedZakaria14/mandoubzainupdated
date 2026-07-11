@@ -1,0 +1,51 @@
+<section id="coverage" class="py-20 bg-gray-50">
+  <div class="container mx-auto px-4">
+    <div class="text-center pb-12">
+      <h2 class="section-title">
+        تغطية أحياء الرياض
+        <span class="title-underline"></span>
+      </h2>
+      <p class="section-subtitle">أحدث المقالات والتغطيات في بمناطق الرياض المختلفة.</p>
+    </div>
+    
+    <!-- Mobile: Horizontal Scroll (CSS Snap), Desktop: Grid -->
+    <div class="blog-grid hide-scrollbar">
+      <!-- PHP Loop Start -->
+      <!-- <?php foreach($blogPosts as $post): ?> -->
+      <div class="blog-card-wrapper">
+        <div class="blog-card">
+          <a href="/blog/<?php echo $post['slug']; ?>" class="blog-image-link">
+            <!-- Featured image with styled number badge -->
+            <div class="blog-image-container">
+              <img 
+                src="<?php echo $post['imageUrl']; ?>"
+                alt="<?php echo $post['title']; ?>" 
+                class="blog-image"
+                loading="lazy"
+                width="400"
+                height="200"
+              />
+              <!-- Styled Article Number Overlay -->
+              <div class="blog-number-badge">
+                <?php echo $post['id']; ?>
+              </div>
+            </div>
+          </a>
+          <div class="blog-content">
+            <a href="/blog/<?php echo $post['slug']; ?>">
+              <h3 class="blog-title"><?php echo $post['title']; ?></h3>
+            </a>
+            <p class="blog-excerpt">
+              تعرف على أفضل باقات وتغطية 5G والألياف البصرية للمنزل.
+            </p>
+            <div class="blog-more-link">
+              <a href="/blog/<?php echo $post['slug']; ?>">المزيد..</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <?php endforeach; ?> -->
+      <!-- PHP Loop End -->
+    </div>
+  </div>
+</section>

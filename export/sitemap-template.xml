@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sitemap-template.xml -->
+<!-- This is a structural template meant to be dynamically populated via PHP or a CMS output -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Homepage -->
+    <url>
+        <loc>https://zain-fiber-riyadh.com/</loc>
+        <lastmod><?php echo date('Y-m-d'); ?></lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Loop through all blog posts -->
+    <!-- <?php foreach($blogPosts as $post): ?> -->
+    <url>
+        <loc>https://zain-fiber-riyadh.com/blog/<?php echo $post['slug']; ?></loc>
+        <lastmod><?php echo date('Y-m-d'); ?></lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <!-- <?php endforeach; ?> -->
+</urlset>

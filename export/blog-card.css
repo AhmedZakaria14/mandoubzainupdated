@@ -1,0 +1,190 @@
+/* blog-card.css */
+
+.section-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  position: relative;
+  display: inline-block;
+  color: #333;
+}
+
+.title-underline {
+  display: block;
+  width: 50%;
+  height: 4px;
+  background-color: #95c11f; /* Brand Primary */
+  margin: 0.5rem auto 0;
+}
+
+.section-subtitle {
+  color: #6b7280;
+  font-size: 1.125rem;
+}
+
+/* Base grid layout */
+.blog-grid {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 2rem;
+  gap: 1.5rem;
+}
+
+/* Mobile responsive */
+@media (min-width: 768px) {
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    overflow-x: visible;
+    scroll-snap-type: none;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .blog-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1280px) {
+  .blog-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.blog-card-wrapper {
+  min-width: 85vw;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+
+@media (min-width: 640px) {
+  .blog-card-wrapper {
+    min-width: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .blog-card-wrapper {
+    min-width: 0;
+  }
+}
+
+.blog-card {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border: 1px solid #f3f4f6;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: box-shadow 0.3s ease;
+}
+
+.blog-card:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.blog-image-link {
+  display: block;
+  position: relative;
+}
+
+.blog-image-container {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #f3f4f6;
+}
+
+.blog-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.blog-card:hover .blog-image {
+  transform: scale(1.05);
+}
+
+/* The styled number badge just like zain5gnet */
+.blog-number-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #95c11f; /* Brand Primary */
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border-bottom-left-radius: 0.75rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(4px);
+}
+
+.blog-content {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.blog-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0.75rem;
+  line-height: 1.375;
+  transition: color 0.2s ease;
+}
+
+.blog-card:hover .blog-title {
+  color: #95c11f;
+}
+
+.blog-excerpt {
+  font-size: 0.875rem;
+  color: #4b5563;
+  line-height: 1.625;
+  margin-bottom: 1rem;
+  flex-grow: 1;
+}
+
+.blog-more-link {
+  text-align: left;
+  margin-top: auto;
+  border-top: 1px solid #f3f4f6;
+  padding-top: 0.75rem;
+}
+
+.blog-more-link a {
+  display: inline-block;
+  color: #95c11f;
+  font-weight: 700;
+  font-size: 0.875rem;
+  transition: color 0.2s ease;
+  text-decoration: none;
+}
+
+.blog-more-link a:hover {
+  color: #242423;
+}
