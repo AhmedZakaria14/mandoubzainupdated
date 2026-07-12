@@ -88,13 +88,13 @@ export default function GenericLandingPage() {
             className="relative"
           >
             <div className="aspect-square bg-gray-200 rounded-[3rem] overflow-hidden shadow-2xl relative border-8 border-white">
-              <Image 
-                src="https://picsum.photos/seed/internet/800/800" 
-                alt="انترنت منزلي" 
-                fill 
-                className="object-cover"
-                referrerPolicy="no-referrer"
-              />
+                <Image 
+                  src="https://res.cloudinary.com/dxvjqrb9l/image/upload/v1777461697/WhatsApp_Image_2026-04-28_at_2.57.08_PM_1_luo5ux.jpg" 
+                  alt="مندوب انترنت منزلي" 
+                  fill 
+                  className="object-cover"
+                  referrerPolicy="no-referrer"
+                />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-12">
                 <div className="text-white">
                   <p className="text-3xl font-black">مندوبك الشخصي</p>
@@ -173,19 +173,19 @@ export default function GenericLandingPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
-                <div className="aspect-square bg-gray-200 rounded-3xl overflow-hidden">
-                  <Image src="https://picsum.photos/seed/tech1/400/400" alt="tech" fill className="object-cover" referrerPolicy="no-referrer" />
+                <div className="aspect-square bg-gray-200 rounded-3xl overflow-hidden relative">
+                  <Image src="https://res.cloudinary.com/dxvjqrb9l/image/upload/v1777279053/3_d2uvsg.png" alt="تأسيس شبكات" fill className="object-cover" referrerPolicy="no-referrer" />
                 </div>
-                <div className="aspect-[4/5] bg-gray-200 rounded-3xl overflow-hidden">
-                  <Image src="https://picsum.photos/seed/tech2/400/500" alt="tech" fill className="object-cover" referrerPolicy="no-referrer" />
+                <div className="aspect-[4/5] bg-gray-200 rounded-3xl overflow-hidden relative">
+                  <Image src="https://res.cloudinary.com/dxvjqrb9l/image/upload/v1777461698/WhatsApp_Image_2026-04-28_at_2.57.08_PM_z4ytos.jpg" alt="تركيب انترنت" fill className="object-cover" referrerPolicy="no-referrer" />
                 </div>
               </div>
               <div className="space-y-4 pt-12">
-                <div className="aspect-[4/5] bg-gray-200 rounded-3xl overflow-hidden">
-                  <Image src="https://picsum.photos/seed/tech3/400/500" alt="tech" fill className="object-cover" referrerPolicy="no-referrer" />
+                <div className="aspect-[4/5] bg-gray-200 rounded-3xl overflow-hidden relative">
+                  <Image src="https://res.cloudinary.com/dxvjqrb9l/image/upload/v1777461697/WhatsApp_Image_2026-04-28_at_2.57.08_PM_2_ztdosg.jpg" alt="سرعة اتصال" fill className="object-cover" referrerPolicy="no-referrer" />
                 </div>
-                <div className="aspect-square bg-gray-200 rounded-3xl overflow-hidden">
-                  <Image src="https://picsum.photos/seed/tech4/400/400" alt="tech" fill className="object-cover" referrerPolicy="no-referrer" />
+                <div className="aspect-square bg-gray-200 rounded-3xl overflow-hidden relative">
+                  <Image src="https://res.cloudinary.com/dxvjqrb9l/image/upload/v1777279051/2_ivbo98.png" alt="خدمة عملاء" fill className="object-cover" referrerPolicy="no-referrer" />
                 </div>
               </div>
             </div>
