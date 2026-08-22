@@ -1,6 +1,7 @@
 import React, { ReactNode } from 'react';
 import Link from 'next/link';
 import { Check, Info } from 'lucide-react';
+import { newBlogPosts } from './newBlogs';
 
 export interface BlogPost {
   id: number;
@@ -901,5 +902,6 @@ export const blogPosts: BlogPost[] = [
         </section>
       </>
     )
-  }
+  },
+  ...newBlogPosts
 ];

@@ -22,11 +22,11 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
 
   return {
     title: `${post.title} | دليل عروض وباقات زين السعودية`,
-    description: `اقرأ تفاصيل: ${post.title}. تصفح أحدث عروض وباقات الإنترنت المنزلي 5G والألياف البصرية من زين في السعودية. تأسيس فوري وبدون رسوم إضافية.`,
-    keywords: ['زين السعودية', 'انترنت 5G المنزلي', 'باقات زين', 'ألياف بصرية', 'الألياف زين', 'مندوب مبيعات زين', 'انترنت لا محدود', 'تأسيس مجاني', 'راوتر مجاني', ...post.title.split(' ').filter(w => w.length > 3)],
+    description: post.metaDescription || `اقرأ تفاصيل: ${post.title}. تصفح أحدث عروض وباقات الإنترنت المنزلي 5G والألياف البصرية من زين في السعودية.`,
+    keywords: post.metaKeywords || ['زين السعودية', 'انترنت 5G المنزلي', 'باقات زين', 'ألياف بصرية', 'الألياف زين', 'مندوب مبيعات زين', 'انترنت لا محدود', 'تأسيس مجاني', 'راوتر مجاني', ...post.title.split(' ').filter(w => w.length > 3)],
     openGraph: {
       title: `${post.title} | عروض 5G وألياف زين`,
-      description: `تعرف على تفاصيل وعروض ${post.title}. تأسيس مجاني وراوتر مجاني.`,
+      description: post.metaDescription || `تعرف على تفاصيل وعروض ${post.title}. تأسيس مجاني وراوتر مجاني.`,
       type: 'article',
       url: process.env.APP_URL ? `${process.env.APP_URL}/blog/${id}` : `/blog/${id}`,
       images: [
@@ -69,7 +69,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ id: s
               "@context": "https://schema.org",
               "@type": "BlogPosting",
               "headline": post.title,
-              "description": `تفاصيل وعروض ${post.title} لتأسيس إنترنت زين المنزلي الفائق.`,
+              "description": post.metaDescription || `تفاصيل وعروض ${post.title} لتأسيس إنترنت زين المنزلي الفائق.`,
               "image": post.imageUrl,
               "author": {
                 "@type": "Person",

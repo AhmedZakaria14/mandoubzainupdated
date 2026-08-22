@@ -347,7 +347,7 @@ export default function Home() {
             </motion.div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {blogPosts.slice(0, 8).map((post, idx) => (
+              {blogPosts.map((post, idx) => (
                 <motion.div 
                    initial={{ opacity: 0, y: 20 }}
                    whileInView={{ opacity: 1, y: 0 }}
@@ -373,7 +373,7 @@ export default function Home() {
                         {post.title}
                       </h3>
                       <p className="text-sm text-gray-600 leading-relaxed mb-6 line-clamp-3 flex-grow">
-                        تعرف على أحدث عروض وباقات الإنترنت المنزلي من شركة زين، شاملة تفاصيل التأسيس المجاني والراوتر.
+                        {post.metaDescription || 'تعرف على أحدث عروض وباقات الإنترنت المنزلي من شركة زين، شاملة تفاصيل التأسيس المجاني والراوتر.'}
                       </p>
                       <div className="flex items-center text-brand-primary font-bold text-sm mt-auto group-hover:translate-x-[-4px] transition-transform">
                         اقرأ المزيد
