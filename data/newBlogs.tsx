@@ -1,5 +1,6 @@
 import type { BlogPost } from './blogs';
 import { sourceBlogPosts } from './sourceArticles';
+import { seoSheetBlogPosts } from './seoSheetArticles';
 const DefImage = "/images/blog-cover-zain-contact.png";
 
 export const newBlogPosts: BlogPost[] = [
@@ -1044,4 +1045,5 @@ export const newBlogPosts: BlogPost[] = [
     )
   },
   ...sourceBlogPosts,
+  ...seoSheetBlogPosts,
 ]

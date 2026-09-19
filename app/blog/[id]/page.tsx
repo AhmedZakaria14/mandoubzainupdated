@@ -21,13 +21,15 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   }
 
   return {
-    title: `${post.title} | دليل عروض وباقات زين السعودية`,
+    title: post.metaTitle || `${post.title} | دليل عروض وباقات زين السعودية`,
     description: post.metaDescription || `اقرأ تفاصيل: ${post.title}. تصفح أحدث عروض وباقات الإنترنت المنزلي 5G والألياف البصرية من زين في السعودية.`,
     keywords: post.metaKeywords || ['زين السعودية', 'انترنت 5G المنزلي', 'باقات زين', 'ألياف بصرية', 'الألياف زين', 'مندوب مبيعات زين', 'انترنت لا محدود', 'تأسيس مجاني', 'راوتر مجاني', ...post.title.split(' ').filter(w => w.length > 3)],
     openGraph: {
-      title: `${post.title} | عروض 5G وألياف زين`,
+      title: post.metaTitle || `${post.title} | عروض 5G وألياف زين`,
       description: post.metaDescription || `تعرف على تفاصيل وعروض ${post.title}. تأسيس مجاني وراوتر مجاني.`,
       type: 'article',
+      publishedTime: post.publishedAt,
+      modifiedTime: post.modifiedAt || post.publishedAt,
       url: process.env.APP_URL ? `${process.env.APP_URL}/blog/${id}` : `/blog/${id}`,
       images: [
         {
@@ -40,7 +42,14 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
     },
     alternates: {
       canonical: process.env.APP_URL ? `${process.env.APP_URL}/blog/${id}` : `/blog/${id}`,
-    }
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.metaTitle || post.title,
+      description: post.metaDescription,
+      images: [post.imageUrl],
+    },
+    robots: { index: true, follow: true },
   };
 }
 
@@ -83,8 +92,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ id: s
                    "url": `${process.env.APP_URL || 'https://example.com'}/images/zain-logo.webp`
                 }
               },
-              "datePublished": new Date().toISOString().split('T')[0],
-              "dateModified": new Date().toISOString().split('T')[0],
+              "datePublished": post.publishedAt || "2026-09-19",
+              "dateModified": post.modifiedAt || post.publishedAt || "2026-09-19",
               "mainEntityOfPage": {
                 "@type": "WebPage",
                 "@id": postUrl
@@ -92,6 +101,36 @@ export default async function BlogPostPage({ params }: { params: Promise<{ id: s
             })
           }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "الرئيسية", "item": process.env.APP_URL || "https://example.com" },
+                { "@type": "ListItem", "position": 2, "name": "المدونة", "item": `${process.env.APP_URL || 'https://example.com'}/#blog` },
+                { "@type": "ListItem", "position": 3, "name": post.title, "item": postUrl }
+              ]
+            })
+          }}
+        />
+        {post.faq && post.faq.length > 0 && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": post.faq.map((item) => ({
+                  "@type": "Question",
+                  "name": item.question,
+                  "acceptedAnswer": { "@type": "Answer", "text": item.answer }
+                }))
+              })
+            }}
+          />
+        )}
 
         <div className="container mx-auto px-4 max-w-4xl relative z-10">
           <nav className="mb-6 text-sm flex items-center gap-2">

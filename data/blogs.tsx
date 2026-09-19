@@ -9,7 +9,11 @@ export interface BlogPost {
   title: string;
   imageUrl: string;
   metaDescription?: string;
+  metaTitle?: string;
   metaKeywords?: string[];
+  publishedAt?: string;
+  modifiedAt?: string;
+  faq?: Array<{ question: string; answer: string }>;
   toc?: ReactNode;
   content?: ReactNode;
 }
