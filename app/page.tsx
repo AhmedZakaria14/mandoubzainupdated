@@ -42,7 +42,7 @@ export default function Home() {
                 "@type": "Organization",
                 "name": "مبيعات زين 5G وألياف",
                 "telephone": `+${WHATSAPP_PHONE}`,
-                "image": `${process.env.APP_URL || 'https://example.com'}/images/zain-logo.webp`
+                "image": `${process.env.APP_URL || 'https://example.com'}/images/zain-logo-dark.webp`
               },
               "areaServed": ["الرياض", "المدينة المنورة", "المملكة العربية السعودية"],
               "description": "خدمات تأسيس وتركيب إنترنت زين 5G والألياف البصرية للمنازل في مدينة الرياض والمدينة المنورة وكافة أنحاء السعودية بأفضل العروض لتجربة تصفح أسرع.",

@@ -15,7 +15,7 @@ export function Header() {
   const displayPhone = "0537394981";
   const whatsappPhone = "966537394981";
 
-  const logoSrc = "/images/zain-logo.webp";
+  const logoSrc = "/images/zain-logo-dark.webp";
   const logoAlt = "شعار زين 5G وألياف بصرية";
 
   useEffect(() => {
@@ -192,7 +192,7 @@ export function Header() {
 export function Footer() {
   const displayPhone = "0537394981";
   const whatsappPhone = "966537394981";
-  const logoSrc = "/images/zain-logo.webp";
+  const logoSrc = "/images/zain-logo-dark.webp";
 
   return (
     <footer className="bg-brand-secondary text-gray-400 pt-20">
