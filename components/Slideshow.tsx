@@ -3,16 +3,15 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 
 const homeImages = [
-  { src: "https://res.cloudinary.com/dxvjqrb9l/image/upload/v1783750769/%D9%85%D9%86%D8%AF%D9%88%D8%A8_%D8%B2%D9%8A%D9%86_5g_%D8%A7%D8%AE%D8%B1_%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB_gcjlva.png", alt: "مندوب شركة زين الرياض لتركيب وتأسيس 5G والألياف" },
-  { src: "https://res.cloudinary.com/dxvjqrb9l/image/upload/v1777279049/1_s3knrl.png", alt: "عروض وسرعات إنترنت زين 5G الهائلة للمنزل لتجربة ألعاب وبث بلا تقطيع" },
-  { src: "https://res.cloudinary.com/dxvjqrb9l/image/upload/v1777461697/zain_fiber_rdqmd6.jpg", alt: "تركيب بوكسات ألياف بصرية زين فايبر بسرعة واحترافية" },
-  { src: "https://res.cloudinary.com/dxvjqrb9l/image/upload/v1777279051/2_ivbo98.png", alt: "باقات زين المفتوحة واللامحدودة للإنترنت المنزلي والألياف البصرية المتطورة" },
-  { src: "https://res.cloudinary.com/dxvjqrb9l/image/upload/v1777461698/WhatsApp_Image_2026-04-28_at_2.57.08_PM_z4ytos.jpg", alt: "تأسيس وإنشاء شبكات الألياف البصرية وزين فايبر للمنازل" },
-  { src: "https://res.cloudinary.com/dxvjqrb9l/image/upload/v1777279053/3_d2uvsg.png", alt: "أفضل تغطية إنترنت منزلي من شركة زين في الرياض والمملكة كاملة" },
-  { src: "https://res.cloudinary.com/dxvjqrb9l/image/upload/v1777461697/WhatsApp_Image_2026-04-28_at_2.57.08_PM_2_ztdosg.jpg", alt: "تمديد كابلات وتجهيز بوكسات الألياف البصرية زين بأعلى معايير الجودة" },
-  { src: "https://res.cloudinary.com/dxvjqrb9l/image/upload/v1777279052/4_mve8v4.png", alt: "تأسيس وتركيب إنترنت 5G سريع ومجاني مع راوتر حديث" },
-  { src: "https://res.cloudinary.com/dxvjqrb9l/image/upload/v1777461697/WhatsApp_Image_2026-04-28_at_2.57.08_PM_1_luo5ux.jpg", alt: "مندوب زين الفني لتركيب الألياف البصرية بالموقع بأسرع وقت" },
-  { src: "https://res.cloudinary.com/dxvjqrb9l/image/upload/v1777279050/5_l2sdhh.png", alt: "موظف مبيعات زين لخدمات الإنترنت المنزلي ورفع طلبات التأسيس فوراً" }
+  { src: "/images/zain-banner-0537394981.webp", alt: "مندوب شركة زين الرياض لتركيب وتأسيس 5G والألياف" },
+  { src: "/images/1_s3knrl.webp", alt: "عروض وسرعات إنترنت زين 5G الهائلة للمنزل لتجربة ألعاب وبث بلا تقطيع" },
+  { src: "/images/2_ivbo98.webp", alt: "باقات زين المفتوحة واللامحدودة للإنترنت المنزلي والألياف البصرية المتطورة" },
+  { src: "/images/fiber-installations.webp", alt: "تأسيس وإنشاء شبكات الألياف البصرية وزين فايبر للمنازل" },
+  { src: "/images/3_d2uvsg.webp", alt: "أفضل تغطية إنترنت منزلي من شركة زين في الرياض والمملكة كاملة" },
+  { src: "/images/fiber-boxes.webp", alt: "تمديد كابلات وتجهيز بوكسات الألياف البصرية زين بأعلى معايير الجودة" },
+  { src: "/images/4_mve8v4.webp", alt: "تأسيس وتركيب إنترنت 5G سريع ومجاني مع راوتر حديث" },
+  { src: "/images/fiber-identification.webp", alt: "مندوب زين الفني لتركيب الألياف البصرية بالموقع بأسرع وقت" },
+  { src: "/images/5_l2sdhh.webp", alt: "موظف مبيعات زين لخدمات الإنترنت المنزلي ورفع طلبات التأسيس فوراً" }
 ];
 
 export function Slideshow() {
@@ -36,7 +35,7 @@ export function Slideshow() {
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.8, ease: "easeInOut" }}
-          className="w-full h-auto object-cover max-h-[600px] group-hover:scale-105 transition-transform duration-[20s]"
+          className="w-full h-auto object-contain bg-white max-h-[600px] pb-16 group-hover:scale-105 transition-transform duration-[20s]"
         />
       </AnimatePresence>
       

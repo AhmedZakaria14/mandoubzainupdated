@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     description: 'أفضل عروض الإنترنت المنزلي 5G والألياف البصرية من زين في الرياض والمدينة المنورة وكافة أنحاء السعودية. تأسيس مجاني وتركيب سريع.',
     images: [
       {
-        url: 'https://res.cloudinary.com/dxvjqrb9l/image/upload/v1781351456/%D9%85%D9%86%D8%AF%D9%88%D8%A8_%D8%B2%D9%8A%D9%86_5G-removebg-preview_baa60n.png',
+        url: '/images/zain-logo.webp',
         width: 1200,
         height: 630,
         alt: 'عروض انترنت زين 5G والألياف البصرية',
@@ -47,15 +47,15 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'عروض 5G وألياف بصرية - انترنت زين المنزلي',
     description: 'أفضل عروض الإنترنت المنزلي 5G والألياف البصرية من زين السعودية. تأسيس سريع.',
-    images: ['https://res.cloudinary.com/dxvjqrb9l/image/upload/v1781351456/%D9%85%D9%86%D8%AF%D9%88%D8%A8_%D8%B2%D9%8A%D9%86_5G-removebg-preview_baa60n.png'],
+    images: ['/images/zain-logo.webp'],
   },
   verification: {
     google: 'ouC8vyCaESBN7B_uxCo_DA4UMFWaKkROWa-o1G1Cvpc',
   },
   icons: {
-    icon: 'https://res.cloudinary.com/dxvjqrb9l/image/upload/v1781351456/%D9%85%D9%86%D8%AF%D9%88%D8%A8_%D8%B2%D9%8A%D9%86_5G-removebg-preview_baa60n.png',
-    shortcut: 'https://res.cloudinary.com/dxvjqrb9l/image/upload/v1781351456/%D9%85%D9%86%D8%AF%D9%88%D8%A8_%D8%B2%D9%8A%D9%86_5G-removebg-preview_baa60n.png',
-    apple: 'https://res.cloudinary.com/dxvjqrb9l/image/upload/v1781351456/%D9%85%D9%86%D8%AF%D9%88%D8%A8_%D8%B2%D9%8A%D9%86_5G-removebg-preview_baa60n.png',
+    icon: '/favicon.png',
+    shortcut: '/favicon.png',
+    apple: '/apple-touch-icon.png',
   },
   robots: {
     index: true,

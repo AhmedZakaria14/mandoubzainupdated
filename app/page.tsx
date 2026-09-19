@@ -42,7 +42,7 @@ export default function Home() {
                 "@type": "Organization",
                 "name": "مبيعات زين 5G وألياف",
                 "telephone": `+${WHATSAPP_PHONE}`,
-                "image": `https://res.cloudinary.com/dxvjqrb9l/image/upload/v1781351456/%D9%85%D9%86%D8%AF%D9%88%D8%A8_%D8%B2%D9%8A%D9%86_5G-removebg-preview_baa60n.png`
+                "image": `${process.env.APP_URL || 'https://example.com'}/images/zain-logo.webp`
               },
               "areaServed": ["الرياض", "المدينة المنورة", "المملكة العربية السعودية"],
               "description": "خدمات تأسيس وتركيب إنترنت زين 5G والألياف البصرية للمنازل في مدينة الرياض والمدينة المنورة وكافة أنحاء السعودية بأفضل العروض لتجربة تصفح أسرع.",
@@ -302,12 +302,11 @@ export default function Home() {
               </div>
             </motion.div>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto">
               {[
-                { src: "https://res.cloudinary.com/dxvjqrb9l/image/upload/v1777461697/zain_fiber_rdqmd6.jpg", alt: "تركيب بوكسات ألياف بصرية لشركة زين فايبر" },
-                { src: "https://res.cloudinary.com/dxvjqrb9l/image/upload/v1777461698/WhatsApp_Image_2026-04-28_at_2.57.08_PM_z4ytos.jpg", alt: "تأسيس وإنشاء شبكات الألياف البصرية وزين فايبر" },
-                { src: "https://res.cloudinary.com/dxvjqrb9l/image/upload/v1777461697/WhatsApp_Image_2026-04-28_at_2.57.08_PM_2_ztdosg.jpg", alt: "تمديد كابلات وتجهيز بوكسات الألياف البصرية زين" },
-                { src: "https://res.cloudinary.com/dxvjqrb9l/image/upload/v1777461697/WhatsApp_Image_2026-04-28_at_2.57.08_PM_1_luo5ux.jpg", alt: "مندوب وموظف تركيب الألياف البصرية فايبر من زين" }
+                { src: "/images/fiber-installations.webp", alt: "تأسيس وإنشاء شبكات الألياف البصرية وزين فايبر" },
+                { src: "/images/fiber-boxes.webp", alt: "تمديد كابلات وتجهيز بوكسات الألياف البصرية زين" },
+                { src: "/images/fiber-identification.webp", alt: "مندوب وموظف تركيب الألياف البصرية فايبر من زين" }
               ].map((img, idx) => (
                 <motion.div 
                    initial={{ opacity: 0, scale: 0.95 }}
@@ -321,7 +320,7 @@ export default function Home() {
                     src={img.src}
                     alt={img.alt}
                     fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="object-contain bg-white transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-brand-secondary/90 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                     <p className="text-brand-secondary font-bold tracking-wide">{img.alt}</p>

@@ -80,7 +80,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ id: s
                 "name": "زين 5G وألياف بصرية",
                 "logo": {
                    "@type": "ImageObject",
-                   "url": `https://res.cloudinary.com/dxvjqrb9l/image/upload/v1781351456/%D9%85%D9%86%D8%AF%D9%88%D8%A8_%D8%B2%D9%8A%D9%86_5G-removebg-preview_baa60n.png`
+                   "url": `${process.env.APP_URL || 'https://example.com'}/images/zain-logo.webp`
                 }
               },
               "datePublished": new Date().toISOString().split('T')[0],

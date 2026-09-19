@@ -15,7 +15,7 @@ export function Header() {
   const displayPhone = "0537394981";
   const whatsappPhone = "966537394981";
 
-  const logoSrc = "https://res.cloudinary.com/dxvjqrb9l/image/upload/v1781351456/%D9%85%D9%86%D8%AF%D9%88%D8%A8_%D8%B2%D9%8A%D9%86_5G-removebg-preview_baa60n.png";
+  const logoSrc = "/images/zain-logo.webp";
   const logoAlt = "شعار زين 5G وألياف بصرية";
 
   useEffect(() => {
@@ -192,7 +192,7 @@ export function Header() {
 export function Footer() {
   const displayPhone = "0537394981";
   const whatsappPhone = "966537394981";
-  const logoSrc = "https://res.cloudinary.com/dxvjqrb9l/image/upload/v1781351456/%D9%85%D9%86%D8%AF%D9%88%D8%A8_%D8%B2%D9%8A%D9%86_5G-removebg-preview_baa60n.png";
+  const logoSrc = "/images/zain-logo.webp";
 
   return (
     <footer className="bg-brand-secondary text-gray-400 pt-20">
