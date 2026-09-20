@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Tajawal } from 'next/font/google';
+import Script from 'next/script';
 import './globals.css';
 
 const tajawal = Tajawal({
@@ -9,8 +10,8 @@ const tajawal = Tajawal({
   display: 'swap',
 });
 
-// The base APP_URL can be used for canonical links
-const baseUrl = process.env.APP_URL || 'https://zain-fiber-riyadh.com';
+// Canonical production origin for metadata and structured data.
+const baseUrl = 'https://www.zain5gsaudi.com';
 
 export const metadata: Metadata = {
   title: {
@@ -50,7 +51,7 @@ export const metadata: Metadata = {
     images: ['/images/zain-logo-dark.webp'],
   },
   verification: {
-    google: 'ouC8vyCaESBN7B_uxCo_DA4UMFWaKkROWa-o1G1Cvpc',
+    google: 'zNma03gW7izxEAOPGdli00LFx5_QOTBw-1wQJn69UFE',
   },
   icons: {
     icon: '/favicon.png',
@@ -82,6 +83,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="bg-brand-gray text-[#444] font-sans antialiased" suppressHydrationWarning>
         {children}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-B7Q5YN19W9"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-B7Q5YN19W9');`}
+        </Script>
       </body>
     </html>
   );

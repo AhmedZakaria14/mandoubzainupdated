@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = process.env.APP_URL || 'https://zain-fiber-riyadh.com';
+  const baseUrl = 'https://www.zain5gsaudi.com';
 
   return {
     rules: {

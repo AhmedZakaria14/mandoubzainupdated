@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: 'تأسيس وتركيب إنترنت زين | عروض 5G والألياف البصرية',
   description: 'احصل على أفضل خدمات وعروض زين لإنترنت 5G والألياف البصرية. تأسيس سريع، مودم مجاني، وباقات مميزة لتغطية شاملة في كافة أحياء الرياض والمدينة المنورة والمملكة. اتصل بمندوب زين.',
   alternates: {
-    canonical: process.env.APP_URL ? `${process.env.APP_URL}/` : '/',
+    canonical: 'https://www.zain5gsaudi.com/',
   }
 };
 
@@ -42,11 +42,11 @@ export default function Home() {
                 "@type": "Organization",
                 "name": "مبيعات زين 5G وألياف",
                 "telephone": `+${WHATSAPP_PHONE}`,
-                "image": `${process.env.APP_URL || 'https://example.com'}/images/zain-logo-dark.webp`
+                "image": "https://www.zain5gsaudi.com/images/zain-logo-dark.webp"
               },
               "areaServed": ["الرياض", "المدينة المنورة", "المملكة العربية السعودية"],
               "description": "خدمات تأسيس وتركيب إنترنت زين 5G والألياف البصرية للمنازل في مدينة الرياض والمدينة المنورة وكافة أنحاء السعودية بأفضل العروض لتجربة تصفح أسرع.",
-              "url": process.env.APP_URL || 'https://example.com',
+              "url": "https://www.zain5gsaudi.com/",
               "hasOfferCatalog": {
                 "@type": "OfferCatalog",
                 "name": "باقات زين المتاحة",
@@ -59,7 +59,7 @@ export default function Home() {
                   },
                   "price": pkg.price,
                   "priceCurrency": "SAR",
-                  "url": process.env.APP_URL || 'https://example.com'
+                  "url": "https://www.zain5gsaudi.com/"
                 }))
               }
             })

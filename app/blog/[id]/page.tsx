@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
       type: 'article',
       publishedTime: post.publishedAt,
       modifiedTime: post.modifiedAt || post.publishedAt,
-      url: process.env.APP_URL ? `${process.env.APP_URL}/blog/${id}` : `/blog/${id}`,
+      url: `https://www.zain5gsaudi.com/blog/${id}`,
       images: [
         {
           url: post.imageUrl,
@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
       ],
     },
     alternates: {
-      canonical: process.env.APP_URL ? `${process.env.APP_URL}/blog/${id}` : `/blog/${id}`,
+      canonical: `https://www.zain5gsaudi.com/blog/${id}`,
     },
     twitter: {
       card: 'summary_large_image',
@@ -61,7 +61,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ id: s
     notFound();
   }
 
-  const postUrl = process.env.APP_URL ? `${process.env.APP_URL}/blog/${id}` : `https://example.com/blog/${id}`;
+  const postUrl = `https://www.zain5gsaudi.com/blog/${id}`;
   const isFiber = post.title.includes('ألياف') || post.title.includes('فايبر');
   const is5G = post.title.includes('5G');
 
@@ -89,7 +89,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ id: s
                 "name": "زين 5G وألياف بصرية",
                 "logo": {
                    "@type": "ImageObject",
-                   "url": `${process.env.APP_URL || 'https://example.com'}/images/zain-logo-dark.webp`
+                   "url": "https://www.zain5gsaudi.com/images/zain-logo-dark.webp"
                 }
               },
               "datePublished": post.publishedAt || "2026-09-19",
@@ -108,8 +108,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ id: s
               "@context": "https://schema.org",
               "@type": "BreadcrumbList",
               "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "الرئيسية", "item": process.env.APP_URL || "https://example.com" },
-                { "@type": "ListItem", "position": 2, "name": "المدونة", "item": `${process.env.APP_URL || 'https://example.com'}/#blog` },
+                { "@type": "ListItem", "position": 1, "name": "الرئيسية", "item": "https://www.zain5gsaudi.com/" },
+                { "@type": "ListItem", "position": 2, "name": "المدونة", "item": "https://www.zain5gsaudi.com/#blog" },
                 { "@type": "ListItem", "position": 3, "name": post.title, "item": postUrl }
               ]
             })
