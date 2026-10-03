@@ -192,7 +192,7 @@ export function Header() {
 export function Footer() {
   const displayPhone = "0596620358";
   const whatsappPhone = "966596620358";
-  const logoSrc = "/images/zain-logo-dark.webp";
+  const logoSrc = "/images/zain-logo.webp";
 
   return (
     <footer className="bg-brand-secondary text-gray-400 pt-20">
@@ -200,10 +200,10 @@ export function Footer() {
         <div className="md:col-span-5 flex flex-col items-center md:items-start">
           <Image 
             src={logoSrc} 
-            alt="شعار المؤسسة" 
+            alt="شعار زين الأبيض"
             width={300}
             height={150}
-            className="mb-6 h-28 md:h-40 w-auto opacity-100 object-contain" 
+            className="mb-6 h-28 md:h-40 w-auto object-contain"
           />
           <p className="mb-6 leading-relaxed text-gray-400 max-w-sm">
             الوجهة الأولى لتأسيس وتركيب خدمات زين 5G والألياف البصرية في السعودية. نوفر لك السرعة والكفاءة بضمان معتمد.

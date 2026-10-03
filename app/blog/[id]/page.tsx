@@ -133,14 +133,14 @@ export default async function BlogPostPage({ params }: { params: Promise<{ id: s
         )}
 
         <div className="container mx-auto px-4 max-w-4xl relative z-10">
-          <nav className="mb-6 text-sm flex items-center gap-2">
-            <Link href="/" className="text-gray-600 hover:text-brand-primary font-medium transition-colors">الرئيسية</Link> 
-            <span className="text-gray-600">/</span> 
-            <span className="text-brand-primary font-bold">{post.title}</span>
-          </nav>
+            <nav className="mb-6 text-sm flex items-center gap-2">
+              <Link href="/" className="text-gray-600 hover:text-brand-primary font-medium transition-colors">الرئيسية</Link>
+              <span className="text-gray-600">/</span>
+              <span className="text-brand-primary font-bold">المقال</span>
+            </nav>
 
           <div className="bg-white rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-200 overflow-hidden mb-12">
-            <div className="relative h-[400px] md:h-[500px] w-full bg-white">
+            <div className="relative h-[280px] sm:h-[360px] md:h-[500px] w-full bg-white">
               <Image 
                 src={post.imageUrl}
                 alt={`تغطية وعروض ${post.title}`} 
@@ -148,16 +148,15 @@ export default async function BlogPostPage({ params }: { params: Promise<{ id: s
                 className="object-cover"
                 loading="eager" 
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-brand-secondary/90 via-brand-secondary/40 to-transparent flex items-end p-8 md:p-16">
-                <div className="max-w-3xl">
-                  <div className="inline-block bg-brand-primary text-brand-secondary font-bold text-sm px-4 py-1.5 rounded-full mb-6 shadow-sm">
-                    تأسيس مجاني
-                  </div>
-                  <h1 className="text-4xl md:text-6xl font-black text-brand-secondary leading-[1.2] drop-shadow-md">
-                    {post.title}
-                  </h1>
-                </div>
+            </div>
+
+            <div className="px-6 py-8 md:px-12 md:py-10 border-t border-gray-100 text-center md:text-right">
+              <div className="inline-block bg-brand-primary text-brand-secondary font-bold text-sm px-4 py-1.5 rounded-full mb-5 shadow-sm">
+                تأسيس مجاني
               </div>
+              <h1 className="text-3xl md:text-5xl font-black text-brand-secondary leading-[1.35] max-w-4xl">
+                {post.title}
+              </h1>
             </div>
 
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 px-4 md:px-8 lg:px-16 pb-16">
