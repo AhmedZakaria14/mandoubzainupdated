@@ -12,8 +12,8 @@ export function Header() {
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
 
-  const displayPhone = "0537394981";
-  const whatsappPhone = "966537394981";
+  const displayPhone = "0596620358";
+  const whatsappPhone = "966596620358";
 
   const logoSrc = "/images/zain-logo-dark.webp";
   const logoAlt = "شعار زين 5G وألياف بصرية";
@@ -190,8 +190,8 @@ export function Header() {
 }
 
 export function Footer() {
-  const displayPhone = "0537394981";
-  const whatsappPhone = "966537394981";
+  const displayPhone = "0596620358";
+  const whatsappPhone = "966596620358";
   const logoSrc = "/images/zain-logo-dark.webp";
 
   return (

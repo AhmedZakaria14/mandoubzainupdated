@@ -5,8 +5,8 @@ import Image from 'next/image';
 import { Phone, MessageCircle, Check, Globe, Wifi, Zap, ShieldCheck } from 'lucide-react';
 import * as motion from 'framer-motion/client';
 
-const displayPhone = "0537394981";
-const whatsappPhone = "966537394981";
+const displayPhone = "0596620358";
+const whatsappPhone = "966596620358";
 
 const packages = [
   {
