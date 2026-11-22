@@ -18,7 +18,7 @@ export interface BlogPost {
   content?: ReactNode;
 }
 
-const DefImage = '/images/zain-banner-0554262261.webp';
+const DefImage = 'https://res.cloudinary.com/agxglxfx/image/upload/v1795344315/mandoubzainupdated/zain-banner-0554262261-hq.webp';
 
 export const blogPosts: BlogPost[] = [
   {

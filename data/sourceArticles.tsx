@@ -1,7 +1,7 @@
 import type { BlogPost } from './blogs';
 import type { ReactNode } from 'react';
 
-const DefImage = "/images/zain-banner-0554262261.webp";
+const DefImage = "https://res.cloudinary.com/agxglxfx/image/upload/v1795344315/mandoubzainupdated/zain-banner-0554262261-hq.webp";
 
 function ArticleContent({ children }: { children: ReactNode }) {
   return <>{children}</>;
