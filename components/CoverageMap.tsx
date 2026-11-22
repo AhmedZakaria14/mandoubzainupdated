@@ -5,7 +5,7 @@ import { MapPin, MessageCircle, CheckCircle2 } from 'lucide-react';
 import * as motion from 'framer-motion/client';
 
 export function CoverageMap() {
-  const WHATSAPP_PHONE = "966596620358";
+  const WHATSAPP_PHONE = "966554262261";
 
   const regions = [
     {

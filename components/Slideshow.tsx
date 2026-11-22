@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 
 const homeImages = [
-  { src: "/images/zain-banner-0596620358.webp", alt: "مندوب شركة زين الرياض لتركيب وتأسيس 5G والألياف" },
+  { src: "/images/zain-banner-0554262261.webp", alt: "مندوب شركة زين الرياض لتركيب وتأسيس 5G والألياف" },
   { src: "/images/1_s3knrl.webp", alt: "عروض وسرعات إنترنت زين 5G الهائلة للمنزل لتجربة ألعاب وبث بلا تقطيع" },
   { src: "/images/2_ivbo98.webp", alt: "باقات زين المفتوحة واللامحدودة للإنترنت المنزلي والألياف البصرية المتطورة" },
   { src: "/images/fiber-installations.webp", alt: "تأسيس وإنشاء شبكات الألياف البصرية وزين فايبر للمنازل" },
