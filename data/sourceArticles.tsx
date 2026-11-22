@@ -11,7 +11,7 @@ export const sourceBlogPosts: BlogPost[] = [
   {
     id: 13,
     slug: "zain-makkah-services",
-    title: "كيف تستفيد من خدمات زين مكة داخل المدينة والمشاعر؟ | 0596620358",
+    title: "كيف تستفيد من خدمات زين مكة داخل المدينة والمشاعر؟ | 0554262261",
     imageUrl: DefImage,
     metaDescription: "دليل الاستفادة من خدمات زين في مكة للسكان والزوار، مع نصائح للتغطية والاتصال أثناء العمرة والحج وخيارات الإنترنت المنزلي 5G والفايبر.",
     metaKeywords: ["زين مكة", "زين مكة المكرمة", "خدمات زين مكة", "زين العزيزية مكة", "زين مكة مول", "إنترنت منزلي مكة"],
@@ -22,7 +22,7 @@ export const sourceBlogPosts: BlogPost[] = [
       <ArticleContent>
       <section id="intro" className="scroll-mt-24">
       <p>{"تزداد أهمية الهاتف والإنترنت في مكة عند التنقل بين السكن والمسجد الحرام والمشاعر المقدسة، إذ يعتمد المستخدم على الخرائط والتواصل مع المرافقين واستقبال التنبيهات والوصول إلى الحجوزات والمستندات الرقمية، كما تختلف كثافة الاستخدام بين الأيام العادية ومواسم العمرة والحج."}</p>
-      <p>{"ويحتاج سكان المدينة كذلك إلى خدمات الجوال والإنترنت المنزلي واتصال يساعدهم في الدراسة والعمل وإدارة أنشطتهم اليومية، لذلك يتغير المقصود عند البحث عن زين مكة حسب احتياج كل مستخدم ومكان وجوده، كما يمكن طلب اشتراك 5G أو الفايبر عبر الرقم 0596620358."}</p>
+      <p>{"ويحتاج سكان المدينة كذلك إلى خدمات الجوال والإنترنت المنزلي واتصال يساعدهم في الدراسة والعمل وإدارة أنشطتهم اليومية، لذلك يتغير المقصود عند البحث عن زين مكة حسب احتياج كل مستخدم ومكان وجوده، كما يمكن طلب اشتراك 5G أو الفايبر عبر الرقم 0554262261."}</p>
       </section>
       <section id="sec1" className="scroll-mt-24 mt-8">
       <h2 className="text-3xl font-black text-brand-secondary mb-6 flex items-center gap-3"><span className="text-brand-primary">✦</span> {"خدمات شركة زين مكة للسكان والزوار"}</h2>
@@ -113,7 +113,7 @@ export const sourceBlogPosts: BlogPost[] = [
       <p>{"يضم حي العزيزية مساكن وفنادق ومنشآت تخدم السكان وضيوف الرحمن، كما يمر به طريق يرتبط بالمسجد الحرام والمشاعر، مما يجعل الوصول إلى خدمة اتصالات قريبة أمرًا مهمًا لكثير من المستخدمين."}</p>
       <p>{"وتشير قوائم نقاط الخدمة إلى وجود موقع على شارع العزيزية العام بجوار مطعم البيك، كما يظهر عنوان آخر في نطاق طريق المسجد الحرام، لذلك يجب التحقق من النقطة الحالية ومواعيدها قبل التحرك إليها."}</p>
       <p>{"ويستطيع الباحث عن زين العزيزية مكة تحديد احتياجه أولًا، مثل شراء شريحة أو الاستفسار عن خط أو طلب مساعدة مرتبطة بالجوال، ثم التأكد من أن الموقع المختار يقدم هذه الخدمة."}</p>
-      <p>{"ولا يلزم التوجه إلى النقطة عند الرغبة في تأسيس إنترنت منزلي جديد، إذ يمكن بدء الاستفسار عبر الرقم 0596620358 ومعرفة تفاصيل 5G أو الفايبر من خلال موقعنا."}</p>
+      <p>{"ولا يلزم التوجه إلى النقطة عند الرغبة في تأسيس إنترنت منزلي جديد، إذ يمكن بدء الاستفسار عبر الرقم 0554262261 ومعرفة تفاصيل 5G أو الفايبر من خلال موقعنا."}</p>
       </section>
       <section id="sec6" className="scroll-mt-24 mt-8">
       <h2 className="text-3xl font-black text-brand-secondary mb-6 flex items-center gap-3"><span className="text-brand-primary">✦</span> {"شركة زين مكة مول والخدمات المتاحة"}</h2>
@@ -207,17 +207,17 @@ export const sourceBlogPosts: BlogPost[] = [
       <section id="sec11" className="scroll-mt-24 mt-8">
       <h2 className="text-3xl font-black text-brand-secondary mb-6 flex items-center gap-3"><span className="text-brand-primary">✦</span> {"اطلب 5G أو الفايبر من زين في مكة"}</h2>
       <p>{"يتيح موقع زين 5G السعودية الاستفسار عن اشتراكات الإنترنت المنزلي الجديدة، سواء كنت تريد خدمة 5G أو تبحث عن إمكانية توصيل الفايبر إلى عقارك في مكة."}</p>
-      <p>{"ويمكن الاتصال أو التواصل عبر واتساب على الرقم 0596620358، ثم مراجعة تفاصيل الباقة والتكلفة والأجهزة التي يتضمنها الاشتراك قبل تسجيل الطلب."}</p>
+      <p>{"ويمكن الاتصال أو التواصل عبر واتساب على الرقم 0554262261، ثم مراجعة تفاصيل الباقة والتكلفة والأجهزة التي يتضمنها الاشتراك قبل تسجيل الطلب."}</p>
       </section>
       <section id="sec12" className="scroll-mt-24 mt-8">
       <h2 className="text-3xl font-black text-brand-secondary mb-6 flex items-center gap-3"><span className="text-brand-primary">✦</span> {"تواصل معنا لتأسيس الإنترنت في مكة"}</h2>
-      <p>{"تواصل معنا على 0596620358، وحدد نوع العقار والخدمة التي تريد طلبها حتى نوضح لك خيارات 5G أو الفايبر المتاحة للاشتراك الجديد."}</p>
+      <p>{"تواصل معنا على 0554262261، وحدد نوع العقار والخدمة التي تريد طلبها حتى نوضح لك خيارات 5G أو الفايبر المتاحة للاشتراك الجديد."}</p>
       <p>{"كما يمكنك السؤال عن تفاصيل العرض الساري ومدة العقد والمتطلبات المرتبطة بالخدمة قبل الموافقة عليه."}</p>
       </section>
       <section id="sec13" className="scroll-mt-24 mt-8">
       <h2 className="text-3xl font-black text-brand-secondary mb-6 flex items-center gap-3"><span className="text-brand-primary">✦</span> {"الخاتمة"}</h2>
       <p>{"تخدم زين مكة احتياجات السكان والعاملين والزوار والمنشآت، كما يساعد الاستعداد المسبق على مواصلة التواصل في أوقات الازدحام وحماية الهاتف والبيانات عند الحركة بين الأماكن المكتظة."}</p>
-      <p>{"وإذا كنت تريد تأسيس إنترنت لمنزلك أو عقارك، فاستخدم الرقم 0596620358 لطلب معلومات عن 5G والفايبر من خلال موقعنا."}</p>
+      <p>{"وإذا كنت تريد تأسيس إنترنت لمنزلك أو عقارك، فاستخدم الرقم 0554262261 لطلب معلومات عن 5G والفايبر من خلال موقعنا."}</p>
       </section>
       <section id="faq" className="scroll-mt-24 mt-8">
       <h2 className="text-3xl font-black text-brand-secondary mb-6 flex items-center gap-3"><span className="text-brand-primary">✦</span> {"الأسئلة الشائعة"}</h2>
@@ -228,8 +228,8 @@ export const sourceBlogPosts: BlogPost[] = [
       <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"هل توجد نقطة زين داخل مكة مول؟"}</h4><p className="text-sm">{"تذكر بعض قوائم المتاجر وجود كشك في مكة مول، لكن ينبغي التأكد من استمراره والخدمات المتاحة داخله قبل الذهاب."}</p></div>
       <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"كيف أحافظ على الاتصال أثناء العمرة؟"}</h4><p className="text-sm">{"احفظ الخرائط وبيانات السكن وأرقام المرافقين، وقلل استهلاك الفيديو، واحمل بطارية متنقلة، واتفق على نقطة تجمع بديلة."}</p></div>
       <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"ماذا أفعل إذا فقدت هاتفي في مكة؟"}</h4><p className="text-sm">{"حاول تحديد موقعه، ثم فعّل نمط الفقدان وأوقف الشريحة وغيّر كلمات مرور الحسابات المهمة وأبلغ المرافقين."}</p></div>
-      <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"هل يمكن طلب إنترنت منزلي دون زيارة نقطة بيع؟"}</h4><p className="text-sm">{"نعم، يمكن التواصل على 0596620358 لطلب معلومات عن اشتراك منزلي جديد في 5G أو الفايبر."}</p></div>
-      <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"ما رقم الاشتراك في 5G أو الفايبر بمكة؟"}</h4><p className="text-sm">{"رقم موقعنا المخصص للاستفسار عن خدمات الإنترنت المنزلي الجديدة هو 0596620358."}</p></div>
+      <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"هل يمكن طلب إنترنت منزلي دون زيارة نقطة بيع؟"}</h4><p className="text-sm">{"نعم، يمكن التواصل على 0554262261 لطلب معلومات عن اشتراك منزلي جديد في 5G أو الفايبر."}</p></div>
+      <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"ما رقم الاشتراك في 5G أو الفايبر بمكة؟"}</h4><p className="text-sm">{"رقم موقعنا المخصص للاستفسار عن خدمات الإنترنت المنزلي الجديدة هو 0554262261."}</p></div>
       </div>
       </section>
       </ArticleContent>
@@ -238,7 +238,7 @@ export const sourceBlogPosts: BlogPost[] = [
   {
     id: 14,
     slug: "zain-jazan-services",
-    title: "كيف تختار خدمة زين المناسبة من مدينة جازان إلى محافظاتها | 0596620358",
+    title: "كيف تختار خدمة زين المناسبة من مدينة جازان إلى محافظاتها | 0554262261",
     imageUrl: DefImage,
     metaDescription: "تعرف على طريقة اختيار خدمة زين المناسبة في مدينة جازان ومحافظاتها، وفحص التغطية وتحسين الإشارة وطلب الاشتراك للمنزل والمنشأة.",
     metaKeywords: ["زين جازان", "زين جيزان", "تغطية زين جازان", "مكتب زين جازان", "خدمات زين في جازان"],
@@ -346,7 +346,7 @@ export const sourceBlogPosts: BlogPost[] = [
       <section id="sec9" className="scroll-mt-24 mt-8">
       <h2 className="text-3xl font-black text-brand-secondary mb-6 flex items-center gap-3"><span className="text-brand-primary">✦</span> {"تواصل معنا لطلب خدمات زين في جازان"}</h2>
       <p>{"يمكنك التواصل معنا إذا كنت ترغب في معرفة الخدمة الملائمة لموقعك، أو تحتاج إلى المساعدة في تقديم طلب جديد، أو تريد الاستفسار عن الخيارات المتاحة قبل اختيار الباقة، حيث نراجع طبيعة الاستخدام وموقع العميل ثم نوضح له البيانات اللازمة لاستكمال الطلب."}</p>
-      <p>{"تواصل عبر الرقم 0596620358، أو انتقل إلى موقع زين 5G السعودية للاطلاع على خدماتنا وإرسال استفسارك، وسنساعدك على اختيار الحل الذي يتوافق مع احتياج المنزل أو النشاط التجاري داخل جازان."}</p>
+      <p>{"تواصل عبر الرقم 0554262261، أو انتقل إلى موقع زين 5G السعودية للاطلاع على خدماتنا وإرسال استفسارك، وسنساعدك على اختيار الحل الذي يتوافق مع احتياج المنزل أو النشاط التجاري داخل جازان."}</p>
       </section>
       <section id="sec10" className="scroll-mt-24 mt-8">
       <h2 className="text-3xl font-black text-brand-secondary mb-6 flex items-center gap-3"><span className="text-brand-primary">✦</span> {"نصائح للحفاظ على اتصال مستقر في المناطق البعيدة"}</h2>
@@ -365,7 +365,7 @@ export const sourceBlogPosts: BlogPost[] = [
       <section id="sec11" className="scroll-mt-24 mt-8">
       <h2 className="text-3xl font-black text-brand-secondary mb-6 flex items-center gap-3"><span className="text-brand-primary">✦</span> {"الخاتمة"}</h2>
       <p>{"يبدأ اختيار خدمة زين جازان المناسبة بفهم موقع الاستخدام وطبيعة التضاريس وعدد الأجهزة، ثم اختبار الاتصال ومراجعة إمكانات الهاتف أو الراوتر، وبذلك تحصل على قرار يعتمد على احتياج حقيقي بدلًا من اختيار الباقة بصورة عشوائية."}</p>
-      <p>{"ولطلب الخدمة أو معرفة الخيارات المتاحة داخل مدينة جازان ومحافظاتها، يمكنك الاتصال على 0596620358 وشرح موقعك واستخدامك المتوقع حتى تحصل على المساعدة المناسبة."}</p>
+      <p>{"ولطلب الخدمة أو معرفة الخيارات المتاحة داخل مدينة جازان ومحافظاتها، يمكنك الاتصال على 0554262261 وشرح موقعك واستخدامك المتوقع حتى تحصل على المساعدة المناسبة."}</p>
       </section>
       <section id="faq" className="scroll-mt-24 mt-8">
       <h2 className="text-3xl font-black text-brand-secondary mb-6 flex items-center gap-3"><span className="text-brand-primary">✦</span> {"الأسئلة الشائعة"}</h2>
@@ -374,7 +374,7 @@ export const sourceBlogPosts: BlogPost[] = [
       <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"كيف أعرف مستوى التغطية في موقعي داخل جازان؟"}</h4><p className="text-sm">{"ابدأ بتجربة الشبكة في الموقع الفعلي، وقارن الأداء في أكثر من موضع ووقت، ولا تعتمد على شرائط الإشارة وحدها، بل راقب التنزيل والرفع وزمن الاستجابة وثبات الاتصال."}</p></div>
       <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"أين أجد مكتب زين جازان؟"}</h4><p className="text-sm">{"تتغير مواقع نقاط الخدمة وساعات عملها، ولذلك يُنصح بالتحقق من بيانات المكتب قبل التحرك، مع تجهيز الهوية ورقم الخط والمستندات المتعلقة بالمعاملة."}</p></div>
       <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"هل تختلف سرعة الاتصال بين مدينة جازان والمحافظات؟"}</h4><p className="text-sm">{"قد تختلف السرعة بسبب المسافة عن محطة الاتصال والتضاريس والازدحام ومواد البناء ونوع الجهاز، كما يمكن أن تتفاوت النتيجة داخل المحافظة نفسها من حي إلى آخر."}</p></div>
-      <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"كيف أتواصل لطلب خدمة زين في جازان؟"}</h4><p className="text-sm">{"يمكنك التواصل على الرقم 0596620358، ثم توضيح موقعك ونوع الاستخدام وعدد الأجهزة حتى يسهل ترشيح الخدمة الملائمة لك."}</p></div>
+      <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"كيف أتواصل لطلب خدمة زين في جازان؟"}</h4><p className="text-sm">{"يمكنك التواصل على الرقم 0554262261، ثم توضيح موقعك ونوع الاستخدام وعدد الأجهزة حتى يسهل ترشيح الخدمة الملائمة لك."}</p></div>
       </div>
       </section>
       </ArticleContent>
@@ -383,7 +383,7 @@ export const sourceBlogPosts: BlogPost[] = [
   {
     id: 15,
     slug: "zain-5g-home-offers",
-    title: "اختر الباقة التي تناسب استخدامك من عروض زين 5G للمنزل | 0596620358",
+    title: "اختر الباقة التي تناسب استخدامك من عروض زين 5G للمنزل | 0554262261",
     imageUrl: DefImage,
     metaDescription: "استعرض أحدث عروض زين 5G للإنترنت المنزلي، مع مقارنة السرعات والأسعار والراوتر والمقويات والخدمات المناسبة لكل نوع من الاستخدام.",
     metaKeywords: ["عروض زين 5G", "عروض زين 5G للمنزل", "زين 5G المنزلية", "باقات زين 5G", "إنترنت 5G منزلي"],
@@ -394,7 +394,7 @@ export const sourceBlogPosts: BlogPost[] = [
       <ArticleContent>
       <section id="intro" className="scroll-mt-24">
       <p>{"تمنحك عروض زين 5G عدة اختيارات تختلف في سرعة التنزيل والرفع، ونوع الراوتر، وعدد مقويات الشبكة، والخدمات الرقمية المصاحبة، ولذلك لا يعتمد الاختيار الصحيح على السعر الشهري وحده، وإنما يرتبط بمساحة المنزل وعدد الأجهزة وطبيعة الأنشطة التي تعمل عبر الإنترنت."}</p>
-      <p>{"ونستعرض في هذا المقال الباقات المنزلية المتاحة والفروق بينها، كما نوضح طريقة مقارنة العروض قبل الاشتراك، حتى تتمكن من طلب الخدمة التي تتوافق مع استهلاكك من خلال الرقم 0596620358."}</p>
+      <p>{"ونستعرض في هذا المقال الباقات المنزلية المتاحة والفروق بينها، كما نوضح طريقة مقارنة العروض قبل الاشتراك، حتى تتمكن من طلب الخدمة التي تتوافق مع استهلاكك من خلال الرقم 0554262261."}</p>
       </section>
       <section id="sec1" className="scroll-mt-24 mt-8">
       <h2 className="text-3xl font-black text-brand-secondary mb-6 flex items-center gap-3"><span className="text-brand-primary">✦</span> {"أحدث عروض زين 5G للإنترنت المنزلي"}</h2>
@@ -508,7 +508,7 @@ export const sourceBlogPosts: BlogPost[] = [
       <section id="sec10" className="scroll-mt-24 mt-8">
       <h2 className="text-3xl font-black text-brand-secondary mb-6 flex items-center gap-3"><span className="text-brand-primary">✦</span> {"كيف تطلب عروض زين 5 جي من موقعنا"}</h2>
       <p>{"نساعدك في مراجعة باقات الجيل الخامس المنزلية واختيار العرض الذي يتوافق مع استخدامك، سواء كنت تبحث عن اتصال للتصفح والعمل، أو تحتاج إلى سرعة أعلى للألعاب والبث، أو ترغب في تغطية منزل يضم عددًا كبيرًا من الغرف والأجهزة."}</p>
-      <p>{"ويمكنك الدخول إلى موقع زين 5G السعودية لمعرفة خدماتنا، ثم التواصل على الرقم 0596620358 وإرسال بيانات موقعك وعدد المستخدمين والباقة التي تفكر فيها، حتى نوضح لك إجراءات تقديم الطلب والمعلومات المطلوبة للاشتراك."}</p>
+      <p>{"ويمكنك الدخول إلى موقع زين 5G السعودية لمعرفة خدماتنا، ثم التواصل على الرقم 0554262261 وإرسال بيانات موقعك وعدد المستخدمين والباقة التي تفكر فيها، حتى نوضح لك إجراءات تقديم الطلب والمعلومات المطلوبة للاشتراك."}</p>
       </section>
       <section id="sec11" className="scroll-mt-24 mt-8">
       <h2 className="text-3xl font-black text-brand-secondary mb-6 flex items-center gap-3"><span className="text-brand-primary">✦</span> {"أخطاء ترفع تكلفة عروض زين فايف جي دون استفادة"}</h2>
@@ -533,7 +533,7 @@ export const sourceBlogPosts: BlogPost[] = [
       <section id="sec13" className="scroll-mt-24 mt-8">
       <h2 className="text-3xl font-black text-brand-secondary mb-6 flex items-center gap-3"><span className="text-brand-primary">✦</span> {"الخاتمة"}</h2>
       <p>{"تبدأ عروض زين 5 جي من الباقة الأساسية بسعر 239 ريالًا، ثم تتدرج الخيارات وفق السرعة ونوع الراوتر وعدد المقويات والخدمات المصاحبة، ولذلك يستطيع كل منزل اختيار مستوى يتناسب مع استهلاكه من دون تحمل تكلفة إضافية غير ضرورية."}</p>
-      <p>{"ولمعرفة العرض المناسب وطلب الاشتراك، تواصل معنا عبر الرقم 0596620358، مع توضيح موقع الخدمة وعدد الأجهزة وطبيعة الاستخدام حتى نساعدك في استكمال الطلب."}</p>
+      <p>{"ولمعرفة العرض المناسب وطلب الاشتراك، تواصل معنا عبر الرقم 0554262261، مع توضيح موقع الخدمة وعدد الأجهزة وطبيعة الاستخدام حتى نساعدك في استكمال الطلب."}</p>
       </section>
       <section id="faq" className="scroll-mt-24 mt-8">
       <h2 className="text-3xl font-black text-brand-secondary mb-6 flex items-center gap-3"><span className="text-brand-primary">✦</span> {"الأسئلة الشائعة"}</h2>
@@ -543,7 +543,7 @@ export const sourceBlogPosts: BlogPost[] = [
       <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"هل تشمل عروض زين 5G راوترًا مجانيًا؟"}</h4><p className="text-sm">{"نعم، تشمل الباقات المنزلية المذكورة راوتر 5G، بينما يختلف إصداره حسب العرض، إذ توفر باقة قيمنق جهازًا مخصصًا للألعاب، وتأتي باقة بلاك بإصدار حصري."}</p></div>
       <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"ما الفرق بين باقة زين المنزلية وباقة قيمنق؟"}</h4><p className="text-sm">{"تقدم الباقة المنزلية تنزيلًا يصل إلى 200 ميجابت ورفعًا يصل إلى 40 ميجابت، بينما تصل باقة قيمنق إلى 300 ميجابت للتنزيل و100 ميجابت للرفع، كما تتضمن مزايا مخصصة للألعاب."}</p></div>
       <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"هل يمكن نقل راوتر زين 5G إلى منزل آخر؟"}</h4><p className="text-sm">{"ترتبط معظم الباقات المنزلية بعنوان الخدمة، بينما توصف باقة بلاك بأنها متنقلة، ولذلك يجب مراجعة شروط الباقة والتغطية في الموقع الجديد قبل نقل الجهاز أو استخدامه في عنوان مختلف."}</p></div>
-      <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"كيف أطلب عروض زين 5G على الرقم 0596620358؟"}</h4><p className="text-sm">{"تواصل على الرقم 0596620358، ثم اذكر عنوان الخدمة وعدد المستخدمين وطبيعة استهلاك الإنترنت، وسنساعدك في معرفة الباقة الأقرب إلى احتياجك وإجراءات تقديم الطلب."}</p></div>
+      <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"كيف أطلب عروض زين 5G على الرقم 0554262261؟"}</h4><p className="text-sm">{"تواصل على الرقم 0554262261، ثم اذكر عنوان الخدمة وعدد المستخدمين وطبيعة استهلاك الإنترنت، وسنساعدك في معرفة الباقة الأقرب إلى احتياجك وإجراءات تقديم الطلب."}</p></div>
       </div>
       </section>
       </ArticleContent>
@@ -552,7 +552,7 @@ export const sourceBlogPosts: BlogPost[] = [
   {
     id: 16,
     slug: "zain-5g-data-packages-guide",
-    title: "دليل اختيار باقة البيانات المناسبة من باقات زين 5G | 0596620358",
+    title: "دليل اختيار باقة البيانات المناسبة من باقات زين 5G | 0554262261",
     imageUrl: DefImage,
     metaDescription: "دليل اختيار باقة البيانات المناسبة من باقات زين 5G، مع مقارنة الباقات محددة السعة وغير المحدودة وطرق متابعة الاستهلاك والصلاحية.",
     metaKeywords: ["باقات زين 5G", "باقات بيانات زين", "زين 5G مسبق الدفع", "باقات الإنترنت غير المحدودة", "اختيار باقة البيانات"],
@@ -563,7 +563,7 @@ export const sourceBlogPosts: BlogPost[] = [
       <ArticleContent>
       <section id="intro" className="scroll-mt-24">
       <p>{"تختلف طريقة استخدام الإنترنت من شخص إلى آخر، فهناك من يحتاج إلى شريحة بيانات لتصفح المواقع خارج المنزل، ومن يستخدمها في راوتر متنقل خلال السفر، بينما تبحث بعض الأسر عن باقة ممتدة لا تتطلب التجديد كل شهر، ولذلك تتنوع باقات زين 5G من حيث حجم البيانات ومدة الصلاحية وطريقة السداد."}</p>
-      <p>{"ويساعدك التعرف إلى هذه الاختلافات على تحديد الباقة المناسبة لاستهلاكك، كما يحميك من انتهاء البيانات قبل موعدها أو شراء سعة أكبر من احتياجك، ويمكنك التواصل على الرقم 0596620358 لطلب الاشتراك ومعرفة الخيارات المتاحة."}</p>
+      <p>{"ويساعدك التعرف إلى هذه الاختلافات على تحديد الباقة المناسبة لاستهلاكك، كما يحميك من انتهاء البيانات قبل موعدها أو شراء سعة أكبر من احتياجك، ويمكنك التواصل على الرقم 0554262261 لطلب الاشتراك ومعرفة الخيارات المتاحة."}</p>
       </section>
       <section id="sec1" className="scroll-mt-24 mt-8">
       <h2 className="text-3xl font-black text-brand-secondary mb-6 flex items-center gap-3"><span className="text-brand-primary">✦</span> {"ما أنواع باقات زين 5G المتاحة"}</h2>
@@ -703,7 +703,7 @@ export const sourceBlogPosts: BlogPost[] = [
       <section id="sec12" className="scroll-mt-24 mt-8">
       <h2 className="text-3xl font-black text-brand-secondary mb-6 flex items-center gap-3"><span className="text-brand-primary">✦</span> {"اطلب باقات زين 5G عبر موقعنا"}</h2>
       <p>{"نساعدك على تحديد فئة الباقة المناسبة وفق حجم استهلاكك ومدة الاستخدام والجهاز الذي ستضع فيه الشريحة، كما نوضح لك البيانات اللازمة لتقديم الطلب حتى لا تختار سعة أو صلاحية لا تتوافق مع احتياجك."}</p>
-      <p>{"ويمكنك زيارة موقع زين 5G السعودية والتواصل معنا على الرقم 0596620358، ثم توضيح ما إذا كنت تحتاج إلى شريحة للهاتف أو الراوتر، ومدة الاشتراك التي تفضلها، ومتوسط استهلاكك المتوقع حتى نساعدك في اختيار الخدمة."}</p>
+      <p>{"ويمكنك زيارة موقع زين 5G السعودية والتواصل معنا على الرقم 0554262261، ثم توضيح ما إذا كنت تحتاج إلى شريحة للهاتف أو الراوتر، ومدة الاشتراك التي تفضلها، ومتوسط استهلاكك المتوقع حتى نساعدك في اختيار الخدمة."}</p>
       </section>
       <section id="sec13" className="scroll-mt-24 mt-8">
       <h2 className="text-3xl font-black text-brand-secondary mb-6 flex items-center gap-3"><span className="text-brand-primary">✦</span> {"إرشادات تمنع نفاد بيانات الباقة مبكرًا"}</h2>
@@ -724,7 +724,7 @@ export const sourceBlogPosts: BlogPost[] = [
       <section id="sec14" className="scroll-mt-24 mt-8">
       <h2 className="text-3xl font-black text-brand-secondary mb-6 flex items-center gap-3"><span className="text-brand-primary">✦</span> {"الخاتمة"}</h2>
       <p>{"يعتمد اختيار باقة زين 5g على ثلاثة عناصر رئيسية، وهي كمية البيانات ومدة الصلاحية وطريقة استخدام الشريحة، ولذلك تناسب الباقة المحددة من يريد التحكم في الاستهلاك، بينما تلائم الباقة غير المحدودة التنزيل والمشاهدة ومشاركة الاتصال بصورة متكررة."}</p>
-      <p>{"وتمنحك زين باقات 5g شهرية وممتدة تسمح باختيار المدة الأقرب إلى احتياجك، ولطلب الخدمة يمكنك الاتصال على 0596620358 وتوضيح نوع الجهاز وفترة الاستخدام والسعة المطلوبة."}</p>
+      <p>{"وتمنحك زين باقات 5g شهرية وممتدة تسمح باختيار المدة الأقرب إلى احتياجك، ولطلب الخدمة يمكنك الاتصال على 0554262261 وتوضيح نوع الجهاز وفترة الاستخدام والسعة المطلوبة."}</p>
       </section>
       <section id="faq" className="scroll-mt-24 mt-8">
       <h2 className="text-3xl font-black text-brand-secondary mb-6 flex items-center gap-3"><span className="text-brand-primary">✦</span> {"الأسئلة الشائعة"}</h2>
@@ -734,7 +734,7 @@ export const sourceBlogPosts: BlogPost[] = [
       <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"هل يمكن استخدام شريحة بيانات زين 5G داخل الراوتر؟"}</h4><p className="text-sm">{"يمكن استخدامها في جهاز متوافق إذا كانت شروط الباقة تسمح بذلك، ولذلك يجب مراجعة نوع الاشتراك والتأكد من دعم الراوتر للشريحة وشبكة الجيل الخامس."}</p></div>
       <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"كيف أعرف المتبقي من باقة زين 5G؟"}</h4><p className="text-sm">{"يمكن معرفة الرصيد وتاريخ انتهاء الاشتراك بإرسال الرمز BC إلى 959 من شريحة الإنترنت، كما يمكن مراجعة بيانات الخط من وسائل إدارة الحساب المتاحة."}</p></div>
       <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"هل تتجدد باقات بيانات زين تلقائيًا؟"}</h4><p className="text-sm">{"تدعم بعض باقات الإنترنت التجديد التلقائي عند توفر الرصيد الكافي، ويمكن إلغاء الخاصية مع الاستمرار في استخدام الباقة الحالية حتى انتهاء صلاحيتها وفق الشروط."}</p></div>
-      <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"كيف أطلب باقة زين 5G على الرقم 0596620358؟"}</h4><p className="text-sm">{"اتصل على 0596620358، ثم حدد ما إذا كنت تريد باقة محددة أو غير محدودة، واذكر مدة الاستخدام والجهاز الذي ستعمل عليه الشريحة، حتى تحصل على المساعدة المناسبة لتقديم طلبك."}</p></div>
+      <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"كيف أطلب باقة زين 5G على الرقم 0554262261؟"}</h4><p className="text-sm">{"اتصل على 0554262261، ثم حدد ما إذا كنت تريد باقة محددة أو غير محدودة، واذكر مدة الاستخدام والجهاز الذي ستعمل عليه الشريحة، حتى تحصل على المساعدة المناسبة لتقديم طلبك."}</p></div>
       </div>
       </section>
       </ArticleContent>
@@ -743,7 +743,7 @@ export const sourceBlogPosts: BlogPost[] = [
   {
     id: 17,
     slug: "zain-5g-start-guide",
-    title: "زين ٥جي كيف تبدأ استخدام الجيل الخامس على هاتفك ومنزلك | 0596620358",
+    title: "زين ٥جي كيف تبدأ استخدام الجيل الخامس على هاتفك ومنزلك | 0554262261",
     imageUrl: DefImage,
     metaDescription: "تعرف على زين 5G وطريقة تشغيل الجيل الخامس على الهاتف والمنزل، ومتطلبات التوافق وإعدادات الراوتر وحلول مشكلات الاتصال الشائعة.",
     metaKeywords: ["زين 5G", "زين 5G على الهاتف", "زين 5G المنزلي", "5G و5G+", "تشغيل الجيل الخامس"],
@@ -943,12 +943,12 @@ export const sourceBlogPosts: BlogPost[] = [
       <section id="sec16" className="scroll-mt-24 mt-8">
       <h2 className="text-3xl font-black text-brand-secondary mb-6 flex items-center gap-3"><span className="text-brand-primary">✦</span> {"اطلب خدمة زين ٥جي من موقعنا"}</h2>
       <p>{"نساعدك على تقديم طلب الجيل الخامس وفق نوع الاستخدام الذي تحتاج إليه، سواء كان لشريحة هاتف أو راوتر منزلي، كما نوضح البيانات المطلوبة قبل التسجيل حتى تختار الخدمة المتوافقة مع جهازك وموقعك."}</p>
-      <p>{"ويمكنك زيارة موقع زين 5G السعودية أو التواصل على الرقم 0596620358، ثم توضيح المدينة ونوع الجهاز وطبيعة الاستخدام، وسنساعدك في معرفة إجراءات طلب الخدمة المتاحة."}</p>
+      <p>{"ويمكنك زيارة موقع زين 5G السعودية أو التواصل على الرقم 0554262261، ثم توضيح المدينة ونوع الجهاز وطبيعة الاستخدام، وسنساعدك في معرفة إجراءات طلب الخدمة المتاحة."}</p>
       </section>
       <section id="sec17" className="scroll-mt-24 mt-8">
       <h2 className="text-3xl font-black text-brand-secondary mb-6 flex items-center gap-3"><span className="text-brand-primary">✦</span> {"الخاتمة"}</h2>
       <p>{"يتطلب تشغيل زين ٥جي توفر التغطية وشريحة متوافقة وهاتف أو راوتر يدعم الترددات المطلوبة، كما يجب تحديث الجهاز واختيار وضع الشبكة الصحيح حتى يستطيع الاتصال بالجيل الخامس."}</p>
-      <p>{"وإذا كنت تريد تشغيل الخدمة على الهاتف أو طلب اتصال منزلي، فتواصل على الرقم 0596620358 وأرسل بيانات موقعك والجهاز الذي ستستخدمه حتى تحصل على المساعدة اللازمة."}</p>
+      <p>{"وإذا كنت تريد تشغيل الخدمة على الهاتف أو طلب اتصال منزلي، فتواصل على الرقم 0554262261 وأرسل بيانات موقعك والجهاز الذي ستستخدمه حتى تحصل على المساعدة اللازمة."}</p>
       </section>
       <section id="faq" className="scroll-mt-24 mt-8">
       <h2 className="text-3xl font-black text-brand-secondary mb-6 flex items-center gap-3"><span className="text-brand-primary">✦</span> {"الأسئلة الشائعة"}</h2>
@@ -959,7 +959,7 @@ export const sourceBlogPosts: BlogPost[] = [
       <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"هل 5G هي نفسها شبكة واي فاي 5GHz؟"}</h4><p className="text-sm">{"لا، تشير 5G إلى الجيل الخامس لشبكات الجوال، بينما يمثل 5GHz نطاقًا لاسلكيًا يستخدمه الراوتر لتوزيع الواي فاي داخل المنزل."}</p></div>
       <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"لماذا يظهر 4G رغم وجود تغطية 5G؟"}</h4><p className="text-sm">{"قد ينتقل الهاتف إلى 4G بسبب ضعف استقبال الجيل الخامس داخل المبنى أو إعدادات توفير الطاقة أو عدم توافق الجهاز مع التردد المستخدم، كما يمكن أن يحدث ذلك أثناء بعض المكالمات."}</p></div>
       <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"هل زين فايف جي منزلي يحتاج إلى تمديدات؟"}</h4><p className="text-sm">{"تصل الخدمة إلى الراوتر عبر شريحة وشبكة لاسلكية، ولذلك لا تعتمد على تمديد كابل ألياف إلى العقار، بينما يحتاج الراوتر إلى الكهرباء وإعداد شبكة الواي فاي أو توصيل كابل داخلي إلى جهازك."}</p></div>
-      <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"كيف أطلب زين ٥جي على الرقم 0596620358؟"}</h4><p className="text-sm">{"تواصل على 0596620358، ثم اذكر موقع الخدمة وما إذا كنت تريد استخدامها على الهاتف أو داخل المنزل، مع توضيح نوع الجهاز إن كان متاحًا حتى يسهل استكمال طلبك."}</p></div>
+      <div className="bg-white p-6 rounded-2xl border border-gray-200"><h4 className="font-bold text-lg text-brand-primary mb-2">{"كيف أطلب زين ٥جي على الرقم 0554262261؟"}</h4><p className="text-sm">{"تواصل على 0554262261، ثم اذكر موقع الخدمة وما إذا كنت تريد استخدامها على الهاتف أو داخل المنزل، مع توضيح نوع الجهاز إن كان متاحًا حتى يسهل استكمال طلبك."}</p></div>
       </div>
       </section>
       </ArticleContent>

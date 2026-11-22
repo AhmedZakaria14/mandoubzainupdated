@@ -22,8 +22,8 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  const WHATSAPP_PHONE = "966596620358";
-  const DISPLAY_PHONE = "0596620358";
+  const WHATSAPP_PHONE = "966554262261";
+  const DISPLAY_PHONE = "0554262261";
 
   return (
     <div className="flex flex-col min-h-screen bg-brand-gray font-sans text-brand-secondary">

@@ -191,8 +191,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ id: s
 
                   <div className="mt-8 bg-white p-6 rounded-2xl border border-brand-primary/20 shadow-lg shadow-brand-primary/5 text-center hidden lg:block">
                     <p className="text-sm font-bold text-gray-600 mb-2">تواصل مباشر مع المندوب المعتمد</p>
-                    <a href="tel:0596620358" className="text-3xl font-black text-brand-primary block mb-6" dir="ltr">0596620358</a>
-                    <a href="https://wa.me/966596620358" target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-brand-secondary py-4 px-6 rounded-2xl font-bold shadow-[0_8px_20px_rgba(37,211,102,0.25)] hover:-translate-y-1 hover:shadow-[0_12px_25px_rgba(37,211,102,0.35)] transition-all flex items-center justify-center gap-2">
+                    <a href="tel:0554262261" className="text-3xl font-black text-brand-primary block mb-6" dir="ltr">0554262261</a>
+                    <a href="https://wa.me/966554262261" target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-brand-secondary py-4 px-6 rounded-2xl font-bold shadow-[0_8px_20px_rgba(37,211,102,0.25)] hover:-translate-y-1 hover:shadow-[0_12px_25px_rgba(37,211,102,0.35)] transition-all flex items-center justify-center gap-2">
                        <MessageCircle size={22} /> واتساب الآن
                     </a>
                   </div>
@@ -215,11 +215,11 @@ export default async function BlogPostPage({ params }: { params: Promise<{ id: s
                        <h3 className="text-3xl mb-4 font-black">احجز موعد التركيب الآن، العرض لفترة محدودة</h3>
                        <p className="mb-8 text-gray-300 text-lg">سارع بالحصول على سرعتك القصوى وإنترنت غير محدود من رواد الاتصالات. تواصل معنا اليوم لاستغلال عرض التأسيس المجاني والراوتر المجاني.</p>
                        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                         <a href="tel:0596620358" className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-white text-brand-secondary text-xl font-black px-8 py-4 rounded-2xl hover:scale-105 transition-transform shadow-lg" dir="ltr">
+                         <a href="tel:0554262261" className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-white text-brand-secondary text-xl font-black px-8 py-4 rounded-2xl hover:scale-105 transition-transform shadow-lg" dir="ltr">
                            <Phone className="w-6 h-6 text-brand-primary" />
-                           0596620358
+                           0554262261
                          </a>
-                         <a href="https://wa.me/966596620358" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#25D366] text-brand-secondary text-xl font-black px-8 py-4 rounded-2xl hover:scale-105 transition-transform shadow-lg">
+                         <a href="https://wa.me/966554262261" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#25D366] text-brand-secondary text-xl font-black px-8 py-4 rounded-2xl hover:scale-105 transition-transform shadow-lg">
                            <MessageCircle className="w-6 h-6" />
                            واتساب مباشر
                          </a>
