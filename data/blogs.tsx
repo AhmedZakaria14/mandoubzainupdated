@@ -18,7 +18,7 @@ export interface BlogPost {
   content?: ReactNode;
 }
 
-const DefImage = '/images/blog-cover-zain-contact.png';
+const DefImage = '/images/zain-banner-0554262261.webp';
 
 export const blogPosts: BlogPost[] = [
   {

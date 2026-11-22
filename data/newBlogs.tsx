@@ -1,7 +1,7 @@
 import type { BlogPost } from './blogs';
 import { sourceBlogPosts } from './sourceArticles';
 import { seoSheetBlogPosts } from './seoSheetArticles';
-const DefImage = "/images/blog-cover-zain-contact.png";
+const DefImage = "/images/zain-banner-0554262261.webp";
 
 export const newBlogPosts: BlogPost[] = [
   {
