@@ -98,7 +98,7 @@ $is_blog_post = true;
 </ul>
 
 <h2>كيفية الاشتراك في فايبر زين</h2>
-<p>يمكن الاشتراك في فايبر زين من خلال الاتصال بالرقم <span dir="ltr">0596620358</span>، أو من خلال اتباع الخطوات التالية:</p>
+<p>يمكن الاشتراك في فايبر زين من خلال الاتصال بالرقم <span dir="ltr">0554262261</span>، أو من خلال اتباع الخطوات التالية:</p>
 <ul>
   <li>اذهب إلى موقع شركة زين</li>
   <li>انقر على تبويب فايبر</li>
@@ -112,9 +112,9 @@ $is_blog_post = true;
 </ul>
 <p>بعد ذلك سيتم التواصل مع صاحب الطلب من قبل خدمة الدعم الفني للشركة لتأكيد الاشتراك.</p>
 
-<a href="tel:0596620358" class="call-btn">
+<a href="tel:0554262261" class="call-btn">
     <div style="background: #25D366; color: white; padding: 15px 30px; border-radius: 50px; font-size: 1.5rem; font-weight: bold; text-align: center; display: inline-block;">
-    اتصل بنا الآن 0596620358
+    اتصل بنا الآن 0554262261
     </div>
 </a>
 
