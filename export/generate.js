@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const OPERATOR = "زين";
-const PHONE = "0596620358";
+const PHONE = "0554262261";
 const BRAND = "زين";
 const SITE_NAME = "الدليل السعودي";
 const DOMAIN = "zain-fiber-riyadh.com";
